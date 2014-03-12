@@ -66,7 +66,7 @@ All of this is handled using Vagrant's provisioning capabilities and is controll
 Developing new modules
 ----------------------
 
-To start developing a new SLS modules, just create the standard module structure under `srv/salt/` in your salt-sandbox checkout. This directory is automatically in the Salt master's _file\_roots__ path and any changes will be picked up immediately.
+To start developing a new SLS modules, just create the standard module structure under `srv/salt/` in your salt-sandbox checkout. This directory is automatically in the Salt master's `file_roots` path and any changes will be picked up immediately.
 
     $ mkdir -p srv/salt/mymodule
     $ vim srv/salt/mymodule/init.sls
