@@ -30,7 +30,7 @@ working:
 Salt Sandbox has been designed for and tested with Vagrant base boxes
 running:
 
-* Ubuntu 12.04
+* Ubuntu 12.04 Precise Pangolin
 
 Usage
 =====
